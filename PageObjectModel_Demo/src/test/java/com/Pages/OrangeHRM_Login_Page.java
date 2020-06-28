@@ -17,12 +17,15 @@ public class OrangeHRM_Login_Page {
 		
 	}
 	
+	//Username
 	@FindBy(id="txtUsername")
 	WebElement Username;
 	
+	//Password
 	@FindBy(id="txtPassword")
 	WebElement Password;
 	
+	//Login Button
 	@FindBy(id="btnLogin")
 	WebElement LoginBtn;
 	
