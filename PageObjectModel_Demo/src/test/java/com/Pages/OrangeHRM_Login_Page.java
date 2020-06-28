@@ -10,6 +10,7 @@ public class OrangeHRM_Login_Page {
 	
 	WebDriver driver;
 	
+	//Contructor
 	public OrangeHRM_Login_Page(WebDriver ldriver) {
 		
 		driver=ldriver;
@@ -29,7 +30,7 @@ public class OrangeHRM_Login_Page {
 	@FindBy(id="btnLogin")
 	WebElement LoginBtn;
 	
-	
+	//According method
 	public void username(String uname) {
 		
 		Username.sendKeys(uname);
